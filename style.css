@@ -6,7 +6,7 @@
 body{
     height:0;
     background:rgb(0, 0, 0);
-    position:fixed;
+    /* position:fixed; */
     font-family: 'Times New Roman', Times, serif;
 }
 .material-icons{
@@ -183,10 +183,8 @@ body{
 }
  /* video class */
  .video{  
-    width:32%;
+    width:390px;
      margin-bottom:30px;
-    /* border:2px solid black; */
-    
  }
  .video-thumbnail{
     width:100%;
