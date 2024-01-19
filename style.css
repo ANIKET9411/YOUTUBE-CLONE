@@ -3,6 +3,7 @@
     margin:0;
     padding:0;
 }
+
 body{
     height:0;
     background:rgb(0, 0, 0);
@@ -149,6 +150,7 @@ body{
  }
  .video-header{
    display: flex;
+   overflow-y: scroll;
  }
  .video-header .box
  {
@@ -167,6 +169,7 @@ body{
    background-color: white;
    padding:6px 10px;
    margin:0 10px;
+   
  }
  .videos h1{
     font-size:24px;
@@ -218,4 +221,37 @@ body{
  }
  .title p{
     font-size:14px;
+ }
+ 
+ @media only screen and (max-width: 600px) {
+   .header{
+      overflow: hidden;
+   }
+   .header-left img{
+      width:100px;
+   }
+    .header--icons{
+      display: flex;
+    }
+    .header-middle{
+      display: none;
+    }
+   .sidebar { 
+     display:none;
+   }
+   .video-header{
+       overflow: auto;
+   }
+   ::-webkit-scrollbar-thumb {
+      background: rgb(0, 0, 0);
+    }
+ }
+ @media only screen and ( 600px<=width<=1280px) {
+   .video{
+      width:360px;
+   }
+   
+   ::-webkit-scrollbar-thumb {
+      background: rgb(0, 0, 0);
+    }
  }
