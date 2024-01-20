@@ -121,6 +121,12 @@ body{
     align-items: center;
     margin:0 10px;
  }
+ .category img{
+   margin-right: 10px;
+   height:30px;
+   width:30px;
+   border-radius: 50%;
+ }
  hr{
     border:1px solid rgba(203, 196, 196, 0.311);
     width:100%;
